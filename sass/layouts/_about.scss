@@ -1,0 +1,48 @@
+.about {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .about-pretitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--dark-main-color);
+  }
+  
+  .about-title {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+  }
+  
+  .about-list {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .about-item {
+    width: calc((100% - 30px) / 4);
+  }
+  
+  .item-list:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .about-pre-title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .icon-box {
+    justify-content: center;
+    @extend %alight-list;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background-color: var(--background-primary-gray);
+  }
+  
