@@ -3,41 +3,38 @@
     padding-bottom: 94px;
   }
   
-  .about-pretitle {
+  .about__pretitle {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--dark-main-color);
-  }
+      margin-top: 0px;
+      margin-bottom: 10px;
+    }
   
-  .about-title {
+  .about__title {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--text-color);
   }
   
-  .about-list {
+  .about__list {
     display: flex;
     gap: 30px;
   }
   
-  .about-item {
+  .about__item {
     width: calc((100% - 30px) / 4);
   }
   
-  .item-list:not(:last-child) {
+  .item__list:not(:last-child) {
     margin-right: 30px;
   }
-  
-  .about-pre-title {
-    margin-top: 0px;
-    margin-bottom: 10px;
-  }
 
-  .icon-box {
+  .about__box {
     justify-content: center;
     @extend %alight-list;
     height: 120px;
